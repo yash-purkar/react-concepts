@@ -10,7 +10,7 @@
   shadow dom
   It revolves around the concept of encapsulation.the shadow DOM is a browser technology whose main objective is to provide encapsulation when creating elements
   In the Shadow DOM, all the elements are connected to the Shadow Root and Shadow HOST.
-  It is the mechanism that binds together code and the data it manipulates.
+  It is the mechanism that binds the code together, and it manipulates the data.
  
 
   Encapsulation is defined as the wrapping up of data under a single unit.
