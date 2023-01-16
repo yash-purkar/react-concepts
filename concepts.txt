@@ -1,0 +1,32 @@
+
+  DOM stands for document object model.
+  as it models the entire html document in an object and thus to access those properties we use method like document.querySelector or etc..
+
+  Virtual dom is replica/copy of existing dom, It can be updated without affecting original dom.
+  Any changes is being done anywhere in the dom, it is compared to find a defference thus only those parts of the application are rerendered, instead of re render the entire dom.
+
+  both Virtual DOM and Shadow DOM improve performance for further manipulation processes.
+
+  shadow dom
+  It revolves around the concept of encapsulation.the shadow DOM is a browser technology whose main objective is to provide encapsulation when creating elements
+  In the Shadow DOM, all the elements are connected to the Shadow Root and Shadow HOST.
+  It is the mechanism that binds together code and the data it manipulates.
+ 
+
+  Encapsulation is defined as the wrapping up of data under a single unit.
+
+
+  package-lock.json vs package.json
+  package.json is a versioning file used to install multiple packages in your project.
+  a package.json file contains metadata about the project and also the functional dependencies that is required by the application.
+  for creating package.json -  npm init -y
+
+  package-lock.json
+  package.lock.json is created for locking the dependency with the installed version. It will install the exact latest version of that package in your application and save it in package.json.
+   Let’s say if the current version of the package is 1.3.2 then it will save the version with (^) sign. Here carot(^) means, it will support any higher version with major version 1 for eg. 1.2.2.
+
+
+  framework is a collection of libraries , it supposts the mvc(model view controller) pattern.
+
+  Libraries provide developers with predefined functions and classes to make their work easier and boost the development process.
+      Good code quality, reusability, and control, enhanced speed and performance of the program, etc.
