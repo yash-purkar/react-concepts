@@ -1,3 +1,6 @@
+                              React Intrview Questions🚀💥
+
+  🛑 Dom vs virtual dom vs shadow dom
 
   DOM stands for document object model.
   as it models the entire html document in an object and thus to access those properties we use method like document.querySelector or etc..
@@ -13,10 +16,12 @@
   It is the mechanism that binds the code together, and it manipulates the data.
  
 
-  Encapsulation is defined as the wrapping up of data under a single unit.
+  Encapsulation = is defined as the wrapping up of data under a single unit.
 
 
-  package-lock.json vs package.json
+
+  🛑 package-lock.json vs package.json
+
   package.json is a versioning file used to install multiple packages in your project.
   a package.json file contains metadata about the project and also the functional dependencies that is required by the application.
   for creating package.json -  npm init -y
@@ -26,7 +31,38 @@
    Let’s say if the current version of the package is 1.3.2 then it will save the version with (^) sign. Here carot(^) means, it will support any higher version with major version 1 for eg. 1.2.2.
 
 
+🛑Library vs framework
+
   framework is a collection of libraries , it supposts the mvc(model view controller) pattern.
 
-  Libraries provide developers with predefined functions and classes to make their work easier and boost the development process.
-      Good code quality, reusability, and control, enhanced speed and performance of the program, etc.
+  Libraries provide developers with predefined functions and classes to make their work easier and boost the development process. Good code quality, reusability, and control, enhanced speed and performance of the program, etc.
+
+
+🛑 Components 
+Components means we can create a pieces of our code, 
+e.g header,navbar etc.
+we can use one component in to the another component,
+Components are reusable.
+      
+
+🛑 Types of components
+There are 2 types of components.
+1. Functional component
+2. Class component
+
+🛑 Difference between Functional component and class component.
+
+➖ Functional components
+1. Functional Components are known as state less component, but after react version 16.8 we can handle the state using hooks and we can also implement the logic.
+2. There is no render method used in functional components.
+3. We can not use lifecycle methods in functional component.
+4. In functional component receives props as parameter in function definition.
+5. After hooks concept function component maintain their own private data with the help of hooks.
+
+➖ Class components
+1. Class components are known as "smart" or "stateful" components because they implement logic and state.
+2. render() method used in class component.
+3. We use lifecycle methods in class component. (e.g componentDidMount , componentDidUpdate etc.)
+4. In class component don't need to receive props we can just access props like 
+this.props.
+5. Class maintain their own private data with the help of state.
