@@ -85,7 +85,7 @@ There are 2 types of components.
 
 
 🛑 state
-  State is an updatable structure that is used to contain data or information about component,The state in a component can changed over time, because of user actions.
+  State is an updatable structure that is used to contain data or information about component,The state in a component state can changed over time, because of user actions.
 
   ◽ Defining state 
   ➖We define a state inside a constructor
