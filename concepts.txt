@@ -78,7 +78,41 @@ There are 2 types of components.
 
 
  How to access props?
- Eg , suppose we pass name as a prop.
+ Eg , suppose we have pass name as a prop.
 
  ➖In functional  "props.name",
  ➖In class component "this.props.name"
+
+
+🛑 state
+  State is an updatable structure that is used to contain data or information about component,The state in a component can changed over time, because of user actions.
+
+  ◽ Defining state 
+  ➖We define a state inside a constructor
+
+  this.state ={
+    name : "Adarsh"
+  }
+
+  ◽ for access
+  {this.state.name}
+
+  ◽ for update
+  this.setState({name : "Rahul"})
+
+
+  🛑 Difference between State and Props
+
+  ➖ Props get passed to the component.
+  〰 State is managed with in the component.
+
+  ➖ Props are immutable.
+  〰 State can be changed.
+
+  ➖ Props In functional component => e.g props.name;
+  〰 State In functional component => with the help of useState hooks
+
+  ➖ Props In class component => e.g this.props.name;
+  〰 State in class component => this.state
+
+
