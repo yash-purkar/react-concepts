@@ -101,7 +101,7 @@ There are 2 types of components.
   this.setState({name : "Rahul"})
 
 
-  🛑 Difference between State and Props
+  🛑 Difference between Props and State
 
   ➖ Props get passed to the component.
   〰 State is managed with in the component.
@@ -110,7 +110,7 @@ There are 2 types of components.
   〰 State can be changed.
 
   ➖ Props In functional component => e.g props.name;
-  〰 State In functional component => with the help of useState hooks
+  〰 State In functional component => with the help of useState hook
 
   ➖ Props In class component => e.g this.props.name;
   〰 State in class component => this.state
