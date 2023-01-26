@@ -4,7 +4,10 @@ import CompA from './Mounting/CompA';
 import Form from './Components/Form';
 import Routing from './Components/Router/Routing';
 import Product from './Updating/Product';
-import Posts from './Axios/Posts'
+import Posts from './Axios/Posts';
+import AxiosPost from './Axios/AxiosPost';
+import UseState from './Hooks/UseState';
+
 
 function App() {
   return (
@@ -13,7 +16,9 @@ function App() {
     // <Form />
     // <Routing />
     // <Product />
-    <Posts />
+    // <Posts />
+    // <AxiosPost />
+    <UseState />
 
   );
 }

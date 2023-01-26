@@ -116,3 +116,18 @@ There are 2 types of components.
   〰 State in class component => this.state
 
 
+🛑 Hooks
+
+Hooks are introduced in react version 16.8
+If we want to use lifecycle methods in functional component then we can use with the help of hooks.
+Hooks also allow us to use state in a functional component.
+There are different types of hooks e.g useState, useEffect etc..
+
+
+useState() is a hook that allow us to have state variable in a functional component,
+useState is a special function that takes initial value as an argument and returns the array of 2 elements , 
+1st initial state and the 
+2nd function for updating the state.
+
+syntax 
+const [name, setName] = useState("Yash");
