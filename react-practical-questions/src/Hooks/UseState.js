@@ -8,8 +8,6 @@ export default function UseState() {
   console.log(channelName);
   const setName = channelName[1];
 
-
-
   function decre() {
     if (counter > 0) {
       setCounter(counter - 1)
@@ -32,3 +30,5 @@ export default function UseState() {
     </div>
   )
 }
+
+

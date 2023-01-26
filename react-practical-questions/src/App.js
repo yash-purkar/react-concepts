@@ -7,6 +7,8 @@ import Product from './Updating/Product';
 import Posts from './Axios/Posts';
 import AxiosPost from './Axios/AxiosPost';
 import UseState from './Hooks/UseState';
+import UseEffect from './Hooks/UseEffect';
+import PrevState from './Hooks/PreviousState'
 
 
 function App() {
@@ -18,7 +20,9 @@ function App() {
     // <Product />
     // <Posts />
     // <AxiosPost />
-    <UseState />
+    // <UseState />
+    // <UseEffect />
+    <PrevState />
 
   );
 }
