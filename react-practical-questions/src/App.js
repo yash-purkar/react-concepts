@@ -8,8 +8,9 @@ import Posts from './Axios/Posts';
 import AxiosPost from './Axios/AxiosPost';
 import UseState from './Hooks/UseState';
 import UseEffect from './Hooks/UseEffect';
-import PrevState from './Hooks/PreviousState'
-
+import PrevState from './Hooks/PreviousState';
+import HookWithObject from './Hooks/HookWithObject'
+import WithArray from './Hooks/WithArray'
 
 function App() {
   return (
@@ -22,7 +23,9 @@ function App() {
     // <AxiosPost />
     // <UseState />
     // <UseEffect />
-    <PrevState />
+    // <PrevState />
+    // <HookWithObject />
+    <WithArray />
 
   );
 }
