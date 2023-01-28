@@ -11,6 +11,8 @@ import UseEffect from './Hooks/UseEffect';
 import PrevState from './Hooks/PreviousState';
 import HookWithObject from './Hooks/HookWithObject'
 import WithArray from './Hooks/WithArray'
+import Updating from './Updating/Updating'
+import A from './contextApi/A';
 
 function App() {
   return (
@@ -25,8 +27,9 @@ function App() {
     // <UseEffect />
     // <PrevState />
     // <HookWithObject />
-    <WithArray />
-
+    // <WithArray />
+    // <Updating />
+    <A />
   );
 }
 
