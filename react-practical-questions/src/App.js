@@ -13,10 +13,13 @@ import HookWithObject from './Hooks/HookWithObject'
 import WithArray from './Hooks/WithArray'
 import Updating from './Updating/Updating'
 import A from './contextApi/A';
+import Student1 from './HOC/Student1';
+import Student2 from './HOC/Student2';
 
 function App() {
   return (
-    // <PracticeC isValue={false} />
+    <>
+      {/* // <PracticeC isValue={false} />
     // <CompA />
     // <Form />
     // <Routing />
@@ -29,7 +32,10 @@ function App() {
     // <HookWithObject />
     // <WithArray />
     // <Updating />
-    <A />
+    // <A /> */}
+      <Student1 />
+      <Student2 />
+    </>
   );
 }
 
